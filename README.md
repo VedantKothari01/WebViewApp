@@ -10,30 +10,27 @@
 - **URL Validation**: Ensure user input for URLs is valid to prevent loading errors.
 - **Loading Indicators**: Display a progress bar while content is loading.
 - **Static HTML Content**: Show static HTML content with interactive elements.
+
 ## Screenshots
 
-### MainActivity
-![MainActivity](screenshots/MainActivity.png)
+### MainActivity and Static Content Activity
+
+<p>
+  <img src="screenshots/MainActivity.png" alt="MainActivity" width="300"/>
+  <img src="screenshots/StaticContentActivity.png" alt="StaticContentActivity" width="300"/>
+</p>
 
 ### Remote Content Activity
 
+<p>
+  <img src="screenshots/RemoteContentActivity-1.png" alt="Initial View" width="300"/>
+  <img src="screenshots/RemoteContentActivity(EmptyField Alert).png" alt="Empty Field Alert" width="300"/>
+</p>
+<p>
+  <img src="screenshots/RemoteContentActivity(InvalidFormat Alert).png" alt="Invalid Format Alert" width="300"/>
+  <img src="screenshots/RemoteContentActivity(Success).png" alt="Success" width="300"/>
+</p>
 
-
-#### Initial View
-![RemoteContentActivity-1](screenshots/RemoteContentActivity-1.png)
-
-#### Empty Field Alert
-![RemoteContentActivity(EmptyField Alert)](screenshots/RemoteContentActivity(EmptyField Alert).png)
-
-#### Invalid Format Alert
-![RemoteContentActivity(InvalidFormat Alert)](screenshots/RemoteContentActivity(InvalidFormat Alert).png)
-
-#### Success
-![RemoteContentActivity(Success)](screenshots/RemoteContentActivity(Success).png)
-
-
-### Static Content Activity
-![StaticContentActivity](screenshots/StaticContentActivity.png)
 
 ## Technologies Used
 

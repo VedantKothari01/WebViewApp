@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0F7FA"
+    android:padding="16dp"> <!-- Added padding to the entire layout -->
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Web View Application"
+            android:textSize="24sp"
+            android:textColor="#00796B"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="32dp"/> <!-- Increased margin for better spacing -->
+
+        <Button
+            android:id="@+id/buttonStaticContent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Display Static HTML Content"
+            android:backgroundTint="#00796B"
+            android:textColor="#FFFFFF"
+            app:layout_constraintTop_toBottomOf="@id/titleTextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"/> <!-- Added bottom margin -->
+
+        <Button
+            android:id="@+id/buttonRemoteContent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Display Remote Web Page Content"
+            android:backgroundTint="#00796B"
+            android:textColor="#FFFFFF"
+            app:layout_constraintTop_toBottomOf="@id/buttonStaticContent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="32dp"/> <!-- Added bottom margin -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

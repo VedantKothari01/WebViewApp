@@ -2,22 +2,38 @@
 
 ## Description
 
-The **WebViewApp** is an Android application that demonstrates the use of WebView to load web content and static HTML. The app includes features for validating URLs, displaying loading indicators, and interacting with JavaScript.
+**WebViewApp** is an Android application showcasing the use of WebView to display web content and static HTML. The app features URL validation, loading indicators, and JavaScript interaction.
 
 ## Features
 
 - **WebView Integration**: Load and display web pages within the app.
-- **URL Validation**: Validate user input for URLs to prevent loading invalid links.
-- **Loading Indicators**: Show a progress bar while content is being loaded.
-- **Static HTML Content**: Display static HTML content with interactive elements.
-
+- **URL Validation**: Ensure user input for URLs is valid to prevent loading errors.
+- **Loading Indicators**: Display a progress bar while content is loading.
+- **Static HTML Content**: Show static HTML content with interactive elements.
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
-![Screenshot 3](screenshots/screenshot3.png)
+### MainActivity
+![MainActivity](screenshots/MainActivity.png)
 
-*Note: Replace the screenshot paths with the actual paths where your screenshots are stored.*
+### Remote Content Activity
+
+
+
+#### Initial View
+![RemoteContentActivity-1](screenshots/RemoteContentActivity-1.png)
+
+#### Empty Field Alert
+![RemoteContentActivity(EmptyField Alert)](screenshots/RemoteContentActivity(EmptyField Alert).png)
+
+#### Invalid Format Alert
+![RemoteContentActivity(InvalidFormat Alert)](screenshots/RemoteContentActivity(InvalidFormat Alert).png)
+
+#### Success
+![RemoteContentActivity(Success)](screenshots/RemoteContentActivity(Success).png)
+
+
+### Static Content Activity
+![StaticContentActivity](screenshots/StaticContentActivity.png)
 
 ## Technologies Used
 
